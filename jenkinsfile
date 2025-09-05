@@ -13,6 +13,7 @@ pipeline {
             }
         }
 
+
         // ===== FRONTEND DEPLOY =====
         stage('Deploy Frontend to Tomcat') {
             steps {
@@ -61,3 +62,4 @@ pipeline {
         }
     }
 }
+// trying to deploy
